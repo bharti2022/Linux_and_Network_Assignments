@@ -1,0 +1,14 @@
+﻿Networking Assignment - 2
+
+    • Explain what and how the below command does what it does
+printf ‘HEAD / HTTP/1.1\r\nHost: en.wikipedia.org\r\n\r\n’ | nc en.wikipedia.org 80
+    • How will you modify the above command to fetch the contents of www.rediff.com?      
+
+printf ‘HEAD / HTTP/1.1\r\nHost: en.wikipedia.org\r\n\r\n’
+printf – The printf command takes a format and arguments and prints a formatted text
+ HEAD -to get the header details
+\r -  create the new lines for the HTTP request.
+\n – for new lines
+nc – for tcp/udp connections
+
+
